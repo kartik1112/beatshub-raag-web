@@ -11,7 +11,7 @@ const Card = ({ iconSrc, title, description }) => {
         <p className='font-mono font-bold text-white text-base sm:text-lg'>{title}</p>
         <p className='font-mono font-medium text-white text-sm'>{description}</p>
       </div>
-      <img src="src/assets/arrow.svg" className='mr-4 sm:mr-8' width={20} alt="" />
+      <img src="assets/arrow.svg" className='mr-4 sm:mr-8' width={20} alt="" />
     </div>
   );
 };

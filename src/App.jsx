@@ -32,18 +32,18 @@ const App = () => {
         />
         <div className='grid grid-flow-row items-center mx-4 sm:mx-16 md:mx-32 lg:mx-52 py-16 sm:py-32 h-full'>
           <Card
-            iconSrc='src/assets/headphones.svg'
+            iconSrc='assets/headphones.svg'
             title='Top Tracks'
             description='Discover Popular Beats'
             
           />
           <Card
-            iconSrc='src/assets/fire.svg'
+            iconSrc='assets/fire.svg'
             title='New Releases'
             description='Back in fresh tunes'
           />
           <Card
-            iconSrc='src/assets/thunder.svg'
+            iconSrc='assets/thunder.svg'
             title='Dynamic Community'
             description='Connect with music titans'
           />
