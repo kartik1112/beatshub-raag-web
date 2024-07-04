@@ -2,6 +2,7 @@
 // eslint-disable-next-line no-unused-vars
 import { React } from 'react';
 
+// eslint-disable-next-line react/prop-types
 const Card = ({ iconSrc, title, description }) => {
   return (
     <div className='flex flex-row p-2 rounded-xl w-full bg-base-card mt-4 sm:mt-8'>

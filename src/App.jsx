@@ -51,6 +51,7 @@ const App = () => {
         <Features />
         <Footer />
       </div>
+      <div></div>
     </div>
   );
 };
