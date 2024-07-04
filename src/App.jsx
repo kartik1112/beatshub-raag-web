@@ -19,6 +19,7 @@ const App = () => {
         <Section
           imgSrc="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           imgAlt=""
+          reverse={false}
           title="Finger on the Pulse of Music Trends"
           description="Stay updated with trending tracks, top producers, and hot uploads. Unearth the gems that haven’t yet hit the mainstream."
         />
@@ -27,7 +28,7 @@ const App = () => {
           imgAlt=""
           title="Your Music Journey Starts Here"
           description="Effortlessly upload your tracks, customize your profile, and start building your fanbase."
-          reverse
+          reverse = {true}
         />
         <div className='grid grid-flow-row items-center mx-4 sm:mx-16 md:mx-32 lg:mx-52 py-16 sm:py-32 h-full'>
           <Card
