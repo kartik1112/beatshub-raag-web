@@ -28,13 +28,14 @@ const App = () => {
           imgAlt=""
           title="Your Music Journey Starts Here"
           description="Effortlessly upload your tracks, customize your profile, and start building your fanbase."
-          reverse = {true}
+          reverse={true}
         />
         <div className='grid grid-flow-row items-center mx-4 sm:mx-16 md:mx-32 lg:mx-52 py-16 sm:py-32 h-full'>
           <Card
             iconSrc='src/assets/headphones.svg'
             title='Top Tracks'
             description='Discover Popular Beats'
+            
           />
           <Card
             iconSrc='src/assets/fire.svg'
@@ -52,7 +53,7 @@ const App = () => {
         <Features />
         <Footer />
       </div>
-      <div></div>
+
     </div>
   );
 };
